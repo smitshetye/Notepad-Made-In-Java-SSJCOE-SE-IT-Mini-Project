@@ -6,5 +6,30 @@
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/smitshetye/Notepad-Made-In-Java-SSJCOE-SE-IT-Mini-Project)
 
+import ForkeMeOnGithub from 'fork-me-on-github-vue';
+
+Vue.use(ForkeMeOnGithub);
+
+<template>
+  ...
+  <Ribbon
+    v-bind="ribbonOptions"
+  ></Ribbon>
+  ...
+</template>
+<script>
+  ...
+  data() {
+    return {
+      ribbonOptions: {
+        text: 'Fork me on GitHub',
+        linkUrl: pkg.repository.url,
+        fixed: true
+      }
+    }
+  }
+  ...
+</script>
+
 ![alt text](https://github.com/smitshetye/Notepad-Made-In-Java-SSJCOE-SE-IT-Mini-Project/blob/main/images/Notepad_Made_In-Java_SSJCOE_SE_IT_Mini_Project.JPG?raw=true)
 ![alt text](https://github.com/smitshetye/Notepad-Made-In-Java-SSJCOE-SE-IT-Mini-Project/blob/main/images/Notepad_Made_In-Java_SSJCOE_SE_IT_Mini_Project_1.JPG?raw=true)
